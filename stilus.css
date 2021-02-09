@@ -1,0 +1,27 @@
+html {
+    background-color: lightyellow;
+}
+
+table {
+    table-layout: fixed;
+    background-color: orange;
+    border: 10px red ridge;
+    border-radius: 10px;
+    border-spacing: 4px;
+    margin: auto;
+    width: 30cm;
+    height: 20cm;
+    color: red;
+    text-align: center;
+    font-size: 1cm;
+    empty-cells: hide;
+}   
+    
+td, th {
+    border: 5px red solid;
+    border-radius: 20px;
+}
+
+thead, tfoot {
+    margin: auto;
+}
